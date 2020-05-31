@@ -1,11 +1,11 @@
-# <font color="CC0000">SilberReconstructor: A hub for the automated reconstruction of neuronal morphology</font>
+# <font color="CC0000">Claustrum Classifier: User-friendly GUI for automated classification of claustrum neurons</font>
 
 
-### Aditya Nair, Gilad Silberberg<sup><a href="#fn1" id="ref1">1</a></sup>
+### Aditya Nair, Martin Graf, George Augustine<sup><a href="#fn1" id="ref1">1</a></sup>
 
 SilberReconstructor is a program implemented within *Mathematica* Version 10.3 <sup><a href="#fn2" id="ref2">2</a></sup> for the automated reconstruction of neuronal morphology in three dimensional z stack confocal microscope images. Created for the biologist, it features an easy to use user interface and can give robust results without extensive domain knowledge in image processing.
 
-## Downloading SilberReconstructor
+## Using SilberReconstructor
 
 > SilberReconstructor can be downloaded from the following Git repository: [SilberReconstructor-Git](https://adityanairneuro.github.io/silver-reconstructor/)
 
@@ -28,7 +28,4 @@ Further details about SilberReconstructor can be obtained from the SilberReconst
 
  
 
-<sup id="fn1">1. [Gilad Silberberg Laboratory, Department of Neuroscience, Karolinska Institute](http://www.neuro.ki.se/silberberg/)<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 
-
-<sup id="fn2">2.Wolfram Research Inc, <a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup>
-
+<sup id="fn1">1. [Augustine Laboratory, Lee Kong Chian School of Medicine, Nanyang Technological University](http://www.lkcmedicine.ntu.edu.sg/aboutus/Faculty-and-Staff/Pages/George-Augustine.aspx)<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 
