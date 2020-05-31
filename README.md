@@ -28,7 +28,7 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## License
 
-Bento is licensed through Nanyang Technological University; redistribution and use for academic and other non-commercial purposes, with or without modification, are permitted provided that conditions of the license are met
+Claustrum Classifier is licensed through Nanyang Technological University; redistribution and use for academic and other non-commercial purposes, with or without modification, are permitted provided that conditions of the license are met
 
 --- 
  
