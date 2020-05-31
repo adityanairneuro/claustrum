@@ -10,17 +10,17 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## About Claustrum Classifier
 
-> Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2, peakdet  
+Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2, peakdet  
 
 ## Using Claustrum Classifier
 
-# Use our online webapp!
+### Use our online webapp!
 
 > The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). A step-by-step walkthrough is given our Wiki page on uploading data and interpreting results.
 
 # Install and use locally 
 
-> If you wish to use the software on your computer, you would first need to use the script Install_Packages_CLA.R to install the various packages used. After this, simply perform 'runApp('CLA_Classifier.R')'
+> If you wish to use the software on your computer, you would first need to use the script Install_Packages_CLA.R to install the various packages used. After this, simply perform `runApp('CLA_Classifier.R')`
 
 ## Ease of Use 
 
