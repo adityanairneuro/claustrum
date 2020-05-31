@@ -4,27 +4,23 @@ Automated electrophysiology based classification of claustrum neurons
 
 ### Aditya Nair, Martin Graf, George Augustine<sup><a href="#fn1" id="ref1">1</a></sup>
 
->The claustrum is a mysterious nucleus of the brain that regulates diverse behaviour from sleep to attention and possibly even consciousness! At the heart of such myriad behaviours might be the presence of heterogenous cell-types in the claustrum. 
+The claustrum is a mysterious nucleus of the brain that regulates diverse behaviour from sleep to attention and possibly even consciousness! At the heart of such myriad behaviours might be the presence of heterogenous cell-types in the claustrum. 
 
->The Augustine lab has recently performed an extensive classification of claustrum neurons based on intrinsic electrophysiological properties and identified at least 5 such cell-types<sup><a href="#fn2" id="ref2">2</a></sup>! The Claustrum Classifier allows anyone to use this scheme by providing software tools for automated extraction of cellular properties from ex-vivo electrophysiological data and classification using a trained neural net that can distinguish the cell-types identified in our publication.
+The Augustine lab has recently performed an extensive classification of claustrum neurons based on intrinsic electrophysiological properties and identified at least 5 such cell-types<sup><a href="#fn2" id="ref2">2</a></sup>! The Claustrum Classifier allows anyone to use this scheme by providing software tools for automated extraction of cellular properties from ex-vivo electrophysiological data and classification using a trained neural net that can distinguish the cell-types identified in our publication.
 
 ## About Claustrum Classifier
 
->Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2, peakdet  
+>Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2 and peakdet. A list of all packages can be found in [Required_Packages](claustrum/Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
 
 ## Using Claustrum Classifier
 
 ### Use our online webapp!
 
-> The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). A step-by-step walkthrough is given our Wiki page on uploading data and interpreting results.
+> The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). The GUI have been implemented to be user-friendly and intuitive: users simply need to upload their files in the ABF format and traverse different tabs to inspect their traces, examine properties and view the classification result.
 
 ### Install and use locally 
 
-> If you wish to use the software on your computer, you would first need to use the script Install_Packages_CLA.R to install the various packages used. After this, simply perform `runApp('CLA_Classifier.R')`
-
-## Ease of Use 
-
->SilberReconstructor acts as a pipeline that allows for the complete automated reconstruction of neuronal morphology. It presents a simple to use interface that allows users to proceed with analysis without any domain-specific knowledge in image processing.
+> If you wish to use the software on your computer, you would first need to use the script [Required_Packages](claustrum/Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
 
 ## License
 
