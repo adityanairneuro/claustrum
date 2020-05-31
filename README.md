@@ -10,21 +10,21 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## About Claustrum Classifier
 
->Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2 and peakdet. A list of all packages can be found in [Required_Packages](claustrum/Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
+Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2 and peakdet. A list of all packages can be found in [Required_Packages](claustrum/Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
 
 ## Using Claustrum Classifier
 
 ### Use our online webapp!
 
-> The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). The GUI have been implemented to be user-friendly and intuitive: users simply need to upload their files in the ABF format and traverse different tabs to inspect their traces, examine properties and view the classification result.
+ The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). The GUI have been implemented to be user-friendly and intuitive: users simply need to upload their files in the ABF format and traverse different tabs to inspect their traces, examine properties and view the classification result.
 
 ### Install and use locally 
 
-> If you wish to use the software on your computer, you would first need to use the script [Required_Packages](claustrum/Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
+If you wish to use the software on your computer, you would first need to use the script [Required_Packages](claustrum/Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
 
 ## License
 
-Claustrum Classifier is licensed through Nanyang Technological University; redistribution and use for academic and other non-commercial purposes, with or without modification, are permitted provided that conditions of the license are met
+>Claustrum Classifier is licensed through Nanyang Technological University; redistribution and use for academic and other non-commercial purposes, with or without modification, are permitted provided that conditions of the license are met
 
 --- 
  
