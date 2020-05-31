@@ -1,5 +1,6 @@
-## <font color="CC0000">Claustrum Classifier: Automated electrophysiology based classification of claustrum neurons</font>
+# <font color="CC0000">Claustrum Classifier</font>
 
+Automated electrophysiology based classification of claustrum neurons
 
 ### Aditya Nair, Martin Graf, George Augustine<sup><a href="#fn1" id="ref1">1</a></sup>
 
@@ -13,7 +14,13 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## Using Claustrum Classifier
 
-> The software can either be downloaded in this github repository and used locally or be used online at the following link: [Claustrum Classifier](https://claustrum.shinyapps.io/online/)
+# Use our online webapp!
+
+> The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). A step-by-step walkthrough is given our Wiki page on uploading data and interpreting results.
+
+# Install and use locally 
+
+> If you wish to use the software on your computer, you would first need to use the script Install_Packages_CLA.R to install the various packages used. After this, simply perform 'runApp('CLA_Classifier.R')'
 
 ## Ease of Use 
 
