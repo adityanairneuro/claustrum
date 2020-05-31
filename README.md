@@ -24,7 +24,7 @@ Claustrum Classifier is written in the R programming language and uses the Shiny
 
 If you wish to use the software on your computer, you would first need to use the script [Required_Packages](Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
 
-![](www/name-of-giphy.gif)
+![](www/Classifier.gif)
 
 ## License
 
