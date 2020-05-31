@@ -1,4 +1,4 @@
-# <font color="CC0000">Claustrum Classifier</font>![](www/favicon.png)
+# <font color="CC0000">Claustrum Classifier</font>![](www/favicon.png | width=10)
 
 
 Automated electrophysiology based classification of claustrum neurons
@@ -11,7 +11,7 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## About Claustrum Classifier
 
-Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2 and peakdet. A list of all packages can be found in [Required_Packages](claustrum/Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
+Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2 and peakdet. A list of all packages can be found in [Required_Packages](Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
 
 ## Using Claustrum Classifier
 
@@ -21,7 +21,7 @@ Claustrum Classifier is written in the R programming language and uses the Shiny
 
 ### Install and use locally 
 
-If you wish to use the software on your computer, you would first need to use the script [Required_Packages](claustrum/Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
+If you wish to use the software on your computer, you would first need to use the script [Required_Packages](Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
 
 ![](www/name-of-giphy.gif)
 
