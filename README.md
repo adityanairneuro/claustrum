@@ -1,4 +1,4 @@
-# <font color="CC0000">Claustrum Classifier</font>![](claustrum/www/favicon.png)
+# <font color="CC0000">Claustrum Classifier</font>![](www/favicon.png)
 
 
 Automated electrophysiology based classification of claustrum neurons
