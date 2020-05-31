@@ -16,11 +16,13 @@ Claustrum Classifier is written in the R programming language and uses the Shiny
 
 ### Use our online webapp!
 
- The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). The GUI have been implemented to be user-friendly and intuitive: users simply need to upload their files in the ABF format and traverse different tabs to inspect their traces, examine properties and view the classification result.
+ The easiest way to use the software is at the following link as a webapp: [Claustrum Classifier](https://claustrum.shinyapps.io/online/). The GUI has been implemented to be user-friendly and intuitive: users simply need to upload their files in the ABF format and traverse different tabs to inspect their traces, examine properties and view the classification result.
 
 ### Install and use locally 
 
 If you wish to use the software on your computer, you would first need to use the script [Required_Packages](claustrum/Required_Packages.R) to install the various packages used after downloading all files from our github page. After this, simply perform `runApp('CLA_Classifier.R')` to run the GUI and select your file, view traces etc.
+
+![](www/name-of-giphy.gif)
 
 ## License
 
