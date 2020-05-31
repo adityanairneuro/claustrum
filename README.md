@@ -1,4 +1,4 @@
-# <font color="CC0000">Claustrum Classifier</font>!<img src= www/favicon.png width="48">
+# <font color="CC0000">Claustrum Classifier</font>!    <img src= www/favicon.png width="20">
 
 
 
