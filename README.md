@@ -12,7 +12,9 @@ The Augustine lab has recently performed an extensive classification of claustru
 
 ## About Claustrum Classifier
 
-Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2, plotly and peakdet. A list of all packages can be found in [Required_Packages](Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks. Details of classifiers are also available in our publication.
+Claustrum Classifier is written in the R programming language and uses the Shiny framework for its GUI. It uses several packages internally including abf2, ggplot2, plotly and peakdet. A list of all packages can be found in [Required_Packages](Required_Packages.R). Extraction of cellular properties such as input resistance, action potential threshold are according to definitions in our recent paper<sup><a href="#fn2" id="ref2">2</a></sup>! and have been implemented using custom scripts. Classification is performed by feed-forward neural networks using the `caret` package in R. Details of classifiers are also available in our publication.
+
+Classifier model weights are also provided in the [Classifier_Weights]() Rdata file where it is stored as a `caret` classifier. 
 
 ## Using Claustrum Classifier
 
