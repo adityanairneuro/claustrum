@@ -16,7 +16,7 @@ Claustrum Classifier is written in the R programming language and uses the Shiny
 
 Classifier model weights are also provided in the [Classifier_Weights](Classifier_Weights.RData) RData file where it is stored as a `caret` classifier. For example, weights can be accessed using `newnetPCALevel1$finalModel$model$wts` for the first classifier than distinguishes projection neurons from interneurons. 
 
-To interpret classifier results, we use the LIME package to obtain an estimation of feature weights which determined the prediction provided.
+To interpret classifier results, we use the [`lime`](https://github.com/thomasp85/lime) package to obtain an estimation of feature weights which determined the prediction provided.
 
 ## Using Claustrum Classifier
 
