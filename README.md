@@ -36,7 +36,11 @@ If you wish to use the software on your computer, you would first need to use th
 
 --- 
  
-### For any queries, please contact [Aditya Nair](adi.nair@caltech.edu)
+### For any queries, please contact [Aditya Nair](mailto:adi.nair@caltech.edu?subject=[GitHub]%20Claustrum%20Classifier)
+
+
+
+
 
 
 <sup id="fn1">1. [Augustine Laboratory, Lee Kong Chian School of Medicine, Nanyang Technological University](http://www.lkcmedicine.ntu.edu.sg/aboutus/Faculty-and-Staff/Pages/George-Augustine.aspx)<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 
