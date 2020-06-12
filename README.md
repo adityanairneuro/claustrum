@@ -8,7 +8,7 @@ Automated electrophysiology based classification of claustrum neurons
 
 The claustrum is a mysterious nucleus of the brain that regulates diverse behaviour from sleep to attention and possibly even consciousness! At the heart of such myriad behaviours might be the presence of heterogenous cell-types in the claustrum. 
 
-The Augustine lab has recently performed an extensive classification of claustrum neurons based on intrinsic electrophysiological properties and identified at least 5 such cell-types<sup><a href="#fn2" id="ref2">2</a></sup>. The Claustrum Classifier allows anyone to use this scheme by providing software tools for automated extraction of cellular properties from ex-vivo electrophysiological data and classification using a trained neural net that can distinguish the cell-types identified in our publication.
+The Augustine lab has recently performed an extensive classification of claustrum neurons based on intrinsic electrophysiological properties and identified at least 5 such cell-types<sup><a href="#fn2" id="ref2">2</a></sup>. The Claustrum Classifier allows anyone to use this scheme by providing software tools for automated extraction of cellular properties from ex-vivo electrophysiological data and classification using a trained neural net that can distinguish the cell-types identified in our [recent publication](https://www.eneuro.org/content/early/2020/06/10/ENEURO.0216-20.2020/).
 
 ## About Claustrum Classifier
 
@@ -45,4 +45,4 @@ If you wish to use the software on your computer, you would first need to use th
 
 <sup id="fn1">1. [Augustine Laboratory, Lee Kong Chian School of Medicine, Nanyang Technological University](http://www.lkcmedicine.ntu.edu.sg/aboutus/Faculty-and-Staff/Pages/George-Augustine.aspx)<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup> 
 
-<sup id="fn1">2. [Graf, Nair, Wong, Tang and Augustine, Identification of mouse claustral neuron types based on their intrinsic electrical properties, Submitted for publication](https://www.abstractsonline.com/pp8/#!/4376/presentation/33214)<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup> 
+<sup id="fn1">2. [Graf, Nair, Wong, Tang and Augustine, Identification of mouse claustral neuron types based on their intrinsic electrical properties, Submitted for publication](https://www.eneuro.org/content/early/2020/06/10/ENEURO.0216-20.2020/)<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup> 
