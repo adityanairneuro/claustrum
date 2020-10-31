@@ -1343,7 +1343,7 @@ server <- function(input, output) {
         }
       }
       
-      n <-  c2;
+      n <-  c2-1;
       n1L <- {n-1}*lengthofepisode+1
       n2L <- lengthofepisode*n
       tn <- abftest$traces[1,n1L:n2L];
@@ -2847,7 +2847,7 @@ server <- function(input, output) {
               }
             }
             
-            n <-  c2;
+            n <-  c2-1;
             n1L <- {n-1}*lengthofepisode+1
             n2L <- lengthofepisode*n
             tn <- abftest$traces[1,n1L:n2L];
